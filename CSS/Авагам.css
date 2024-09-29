@@ -1,0 +1,359 @@
+html::-webkit-scrollbar{ /*Для того чтоб небыло бигунка на сайте*/
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+
+body {
+    background-image: url('images/ФОН.jpg');
+    font-family: sans-serif;
+}
+#banner iframe{
+    width: 1900px;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    border-radius:100px;
+    border: 5px solid;
+    border-color:black ;
+}
+
+
+ul li{
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #002bff; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    margin-top: 5px;
+    border-radius: 50px;
+    position: relative; /*позицыя текста в ячейки*/
+    
+    }ul ul li:hover{
+        transform:scale(1.1) ;
+    }
+    ul li a{
+    color: #ffffff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 30px 30px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+
+    }
+    ul ul{
+      display: none;/*Делает выподающее меню*/
+      position: absolute;
+      margin-left: -40px;
+      margin-top: 0px;
+      margin-right: 3px; /* Расстояние между пунктами меню */
+
+    }
+   li:hover > ul {
+    display: block;/*Вид ячейки*/
+    }li:hover{
+          background: #0051ff; /*Цвет фона при наведении курсора мыши*/
+    }ul ul li a{
+        padding: 20px 70px; /* Поля вокруг текста */
+        width: 230px;
+        text-align: center;
+    }
+
+   
+
+.ppp{
+    display: flex;
+   
+}
+
+
+.rrr{
+    background: linear-gradient(45deg, #001aff, #3739bb, #192d9e, #cbb9e2, #00ffd5, #002bff, #7a00ff, #ff00d9);
+    background-size: 800% 800%;
+    border-radius: 100px;
+    color: white;
+    width: 515px;
+    height: 650px;
+    transition: all 0.4s ease;
+    animation: gradientAnimation 10s ease infinite;
+    margin-left: 90px;
+    margin-top: 50px;
+    border: 5px solid;
+}.ppp iframe:hover{
+    border-color: blue;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.running-text {
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    animation: marquee 5s linear infinite;
+    font-size: 100px;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+
+
+
+  .fod{
+    width: 1900px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 5px solid black;
+    animation: gradientAnimation 10s ease infinite;
+    background: linear-gradient(45deg, #001aff, #3739bb, #192d9e, #cbb9e2, #00ffd5, #002bff, #7a00ff, #ff00d9);
+    transition: all 0.4s ease;
+    background-size: 800% 800%;
+    color: #ffffff;
+  }.fod1{
+    margin-top: 0px;
+    display: flex;
+  }.hhh{
+    margin-top: 30px;
+    margin-left: 70px;
+    text-decoration: none; 
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+  }.fod2{
+margin-left: 1200px;
+margin-top: -140px;
+text-align: center;
+  }img{
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 50px;
+  }.a1:hover{
+    transform: scale(1.1);
+  }.a2:hover{
+    transform: scale(1.1);
+  }.a2:hover{
+    transform: scale(1.1);
+  }.a3:hover{
+    transform: scale(1.1);
+  }.a4:hover{
+    transform: scale(1.1);
+  }.a5:hover{
+    transform: scale(1.1);
+  }.a6:hover{
+    transform: scale(1.1);
+  }
+  .a1{
+    width: 60px;
+  }.a2{
+    width: 70px;
+  }.a4{
+    width: 90px;
+  }.a5{
+    width: 90px;
+  }
+
+
+
+    @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.fod3{
+  display: flex;
+  margin-top: -25px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+#time{
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}.a6{
+  width: 90px;
+}
+
+
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #DEF7FE;
+  border-radius: 50px;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+textarea {
+  height: 120px;
+
+}
+button {
+  background-color: #755C48; 
+  color: white;
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+
+} 
+.reviews {
+  margin-top: 20px;
+
+}
+.review {
+  border: 5px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+
+}
+.review .name {
+  font-weight: bold;
+}
+
+
+
+
+.Time{
+  animation: gradientAnimation 10s ease infinite;
+  background: linear-gradient(-80deg, #DEF7FE, #E7ECFF, #C3FBD8, gold, #F6FFF8,  #B5F2EA, #C6D8FF);
+  transition: all 0.1s ease 0s;
+  background-size: 800% 800%;   text-align: center;
+  height: 400px;
+  color: black;
+  border-radius: 50px;
+  border: 5px solid black;
+  font-size: 30px;
+  margin-top: 0 px;
+  display: flex;
+}.Time div{
+  margin-left: 150px;
+}
+
+.sss{
+  width: 500px;
+  margin-left: 100px;
+}
+
+
+
+.content{
+  background-color: #DEF7FE;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  border: 5px solid black;
+  border-radius: 50px;
+  height: 600px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+.product {
+  /* width: 300px; */
+  padding: 20px;
+  margin-bottom: 20px;
+    background-color: #DEF7FE;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.jjj{
+  width: 250px;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Занимает всю ширину */
+  margin-bottom: 10px;
+}
+
+.product h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+text-align: center;
+}
+.product p {
+  margin-top: 0;
+  margin-bottom: 10px;
+text-align: center;
+}
+
+.product form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product button {
+  padding: 8px 20px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #755C48;
+  color: white;
+  cursor: pointer;
+}
+
+

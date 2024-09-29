@@ -1,0 +1,224 @@
+html::-webkit-scrollbar{ /*Для того чтоб небыло бигунка на сайте*/
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+
+body {
+    background-image: url('images/ФОН.jpg');
+}
+
+#banner iframe{
+    width: 1900px;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    border-radius:100px;
+    border: 5px solid;
+    border-color:black ;
+}
+
+
+ul li{
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #002bff; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    margin-top: 5px;
+    border-radius: 50px;
+    position: relative; /*позицыя текста в ячейки*/
+    
+    }ul ul li:hover{
+        transform:scale(1.1) ;
+    }
+    ul li a{
+    color: #ffffff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 30px 30px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    }
+    ul ul{
+      display: none;/*Делает выподающее меню*/
+      position: absolute;
+      margin-left: -40px;
+      margin-top: 0px;
+      margin-right: 3px; /* Расстояние между пунктами меню */
+    }
+   li:hover > ul {
+    display: block;/*Вид ячейки*/
+    }li:hover{
+          background: #0051ff; /*Цвет фона при наведении курсора мыши*/
+    }ul ul li a{
+        padding: 20px 70px; /* Поля вокруг текста */
+        width: 230px;
+        text-align: center;
+
+    }
+
+   
+
+.ppp{
+    display: flex;
+   
+}
+
+
+
+iframe{
+    background: linear-gradient(45deg, #001aff, #3739bb, #192d9e, #cbb9e2, #00ffd5, #002bff, #7a00ff, #ff00d9);
+    background-size: 800% 800%;
+    border-radius: 100px;
+    color: white;
+    width: 515px;
+    height: 650px;
+    transition: all 0.4s ease;
+    animation: gradientAnimation 10s ease infinite;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 5px solid;
+}.ppp iframe:hover{
+    border-color: blue;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.running-text {
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    animation: marquee 5s linear infinite;
+    font-size: 100px;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+
+
+  .fod{
+    width: 1900px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 5px solid black;
+    animation: gradientAnimation 10s ease infinite;
+    background: linear-gradient(45deg, #001aff, #3739bb, #192d9e, #cbb9e2, #00ffd5, #002bff, #7a00ff, #ff00d9);
+    transition: all 0.4s ease;
+    background-size: 800% 800%;
+    color: #ffffff;
+  }.fod1{
+    margin-top: 0px;
+    display: flex;
+  }.hhh{
+    margin-top: 30px;
+    margin-left: 100px;
+    text-decoration: none; 
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+  }.fod2{
+margin-left: 1200px;
+margin-top: -140px;
+text-align: center;
+  }img{
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 50px;
+  }img:hover{
+    transform: scale(1.1);
+  }.a1{
+    width: 60px;
+  }.a2{
+    width: 70px;
+  }.a4{
+    width: 90px;
+  }.a5{
+    width: 90px;
+  }
+
+
+
+    @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.fod3{
+  display: flex;
+  margin-top: -25px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+#time{
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}.a6{
+  width: 90px;
+}
+
+
+
+.uuu{
+  text-align: center;
+
+
+}.uuu h1{ 
+    background-color: #DEF7FE;
+  color: black;
+width: 50%;
+margin-left: 480px;
+border-radius: 50px;
+}
+
+.uuu .eee{
+width:700px ;
+height: 500px;
+margin-top: 0px;
+margin-left: 0px;
+border: 5px solid #ffffff;
+}.uuu .eee:hover{
+border: 5px solid black;
+}
+
+
+.mmm{
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.yyy{
+width:650px ;
+height: 380px;
+border-radius: 0px;
+border: none;
+}

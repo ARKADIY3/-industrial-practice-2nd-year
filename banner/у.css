@@ -1,0 +1,205 @@
+html::-webkit-scrollbar{ /*Для того чтоб небыло бигунка на сайте*/
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    }
+.uuuu{
+    margin-top: -500px;
+    margin-left: -700px;
+
+}
+
+#pppp{
+    margin-top: 120px;
+    margin-left: 55px;
+    transform: scale(0.5);
+    transition: all 0.1s ease 0s;
+}
+.qqq{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+ .rrrr{
+    background: linear-gradient(-45deg, #eaebe4, #6e6e85, #8ea05c, gold, #ff0000, #616472, #d46b9c, #d393c9);
+    background-size: 800% 800%;
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        background-color: #BFBEFF;
+        margin-top: -250px;
+        margin-left: 500px;
+        position: absolute;
+        animation: gradientAnimation 10s ease infinite;
+        transform: scale(0.5);
+        border: 10px solid;
+}
+ @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}#button{
+    backface-visibility: hidden; 
+    transform-style: preserve-3d;
+    transition: all 0.8s ease 0s;
+}
+.flyx{
+    display: flex;
+    margin-left: 100px;
+}.flyx1{
+    display: flex;
+    margin-left: 60px;
+}.flyx2{
+    display: flex;
+    margin-left: 100px; 
+}.flyx3{
+    display: flex;
+    margin-left: 160px;
+}
+.a1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1720E9;
+    margin-left: 17px;
+    margin-top: 5px;
+}.a2{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #1720E9;
+        margin-left: 10px;
+        margin-top: 5px;
+}.a2:hover{
+    transform: scale(1.1);
+}
+.a4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1720E9;
+    margin-left: 17px;
+    margin-top: 5px;
+}.a4:hover{
+    transform: scale(1.1);
+}
+
+.a3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1720E9;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+
+.a3:hover{
+    transform: scale(1.1);
+}
+
+#list{
+    margin-left: 100px;
+}
+.leaf1 {
+    width: 200px; /* Ширина листа */
+    height: 200px; /* Высота листа */
+    background-color: #774B18; /* Цвет листа */
+    transform: rotate(-45deg); /* Поворот на 45 градусов против часовой стрелки */
+    margin-left: 240px;
+    border-radius: 70% 0 70% 0;
+    position: absolute;
+    margin-top: -0px;
+}.leaf1:hover{
+    transform: rotate(-38deg);
+    transform-origin:center;
+}
+
+.leaf3 {
+    width: 150px; /* Ширина листа */
+    height: 250px; /* Высота листа */
+    background-color: #835724; /* Цвет листа */
+    transform: rotate(-140deg); /* Поворот на 45 градусов против часовой стрелки */
+    margin-left: 390px;
+    margin-top: -220px;
+    border-radius: 253px 0 256px 0;
+    position: absolute;
+}.leaf3:hover{
+    transform: rotate(-150deg);
+    transform-origin:center;
+}
+
+
+.leaf4 {
+    width: 150px; /* Ширина листа */
+    height: 250px; /* Высота листа */
+    background-color: #805625; /* Цвет листа */
+    transform: rotate(140deg); /* Поворот на 45 градусов против часовой стрелки */
+    margin-left: 120px;
+    border-radius:0 253px  0 256px;
+    position: absolute;
+    margin-top: -220px;
+}.leaf4:hover{
+    transform: rotate(150deg);
+    transform-origin:center;
+}
+
+
+.leaf5 {
+    width: 150px; /* Ширина листа */
+    height: 250px; /* Высота листа */
+    background-color: #6C4920; /* Цвет листа */
+    transform: rotate(150deg); /* Поворот на 45 градусов против часовой стрелки */
+    margin-left: 390px;
+    border-radius:0 253px  0 256px;
+    position: absolute;
+    margin-top:-100px ;
+}
+.leaf5:hover{
+    transform: rotate(140deg);
+    transform-origin:center;
+}
+.leaf2 {
+    width: 150px; /* Ширина листа */
+    height: 250px; /* Высота листа */
+    background-color: #6C4920; /* Цвет листа */
+    transform: rotate(-150deg); /* Поворот на 45 градусов против часовой стрелки */
+    margin-left: 140px;
+    border-radius: 80% 0 80% 0;
+    margin-top: -100px;
+    position: absolute;
+}
+.leaf2:hover{
+    transform: rotate(-140deg);
+    transform-origin:center;
+}
+#hvost{
+    width: 30px; 
+    height: 250px;
+    background-color: #532b2b; /* Цвет листа */
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 370px;
+    border-radius: 80% 0 0% 0;
+    transform: rotate(150deg); /* Поворот на 45 градусов против часовой стрелки */
+}
+
+
+#fade-in-out {
+    opacity: 0;
+    animation: fadeInOut 4s infinite;
+    font-size: 70px;
+    margin-left: 450px;
+    margin-top: 200px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  @keyframes fadeInOut {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
